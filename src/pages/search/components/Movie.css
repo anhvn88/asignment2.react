@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(5, 19vw);
+  padding: 1vh 1vw 1vh 1vw;
+  width: 95vw;
+}
+
+.card {
+  width: 18vw;
+  height: auto;
+  padding-left: 0.1vw;
+  color: white;
+}
+.form {
+  padding: 10vh 10vw 2vh 30vw;
+}
+.input {
+  width: 20vw;
+}
+.label {
+  color: white;
+  padding: 2vh 2vw 5vh 1vw;
+}
+.viewDetail {
+  display: flex;
+}
+.youtube {
+  width: 40vw;
+  color: white;
+}
